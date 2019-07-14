@@ -1,0 +1,14 @@
+{
+    "amh_options_title": "Advanced Meth Helper",
+    "amh_options_description": "Advanced Meth Helper options",
+    "amh_options_notifications_title": "Notification type",
+    "amh_options_notifications_description": "Select the type of notification to display",
+    "amh_notification_type_message_local": "Chat message (Local only)",
+    "amh_notification_type_message_local_spammy": "Spammy chat messages (Local only)",
+    "amh_notification_type_midtext": "Mid text (Local only)",
+    "amh_notification_type_hint": "Hint (Local only)",
+    "amh_notification_type_message_public": "Chat message (Public)",
+    "amh_notification_type_message_public_spammy": "Spammy chat messages (Public)",
+    "amh_options_enabled_title": "Enabled",
+    "amh_options_enabled_description": "Enable or disable the mod"
+}

@@ -1,0 +1,38 @@
+{
+    "menu_id": "amh_options_menu",
+    "parent_menu_id": "blt_options",
+    "title": "amh_options_title",
+    "description": "amh_options_description",
+    "back_callback": "AdvancedMethHelper_SaveOptions",
+    "items": [
+        {
+            "type": "toggle",
+            "id": "amh_toggle_enabled",
+            "title": "amh_options_enabled_title",
+            "description": "amh_options_enabled_description",
+            "callback": "AdvancedMethHelper_SetEnabled",
+            "value": "enabled",
+            "default_value": true
+        },
+        {
+            "type": "divider",
+            "size": 16
+        },
+        {
+            "type": "multiple_choice",
+            "id": "amh_selector_notification_type",
+            "title": "amh_options_notifications_title",
+            "description": "amh_options_notifications_description",
+            "callback": "AdvancedMethHelper_SetNotificationType",
+            "items": [
+                "amh_notification_type_message_local",
+                "amh_notification_type_message_local_spammy",
+                "amh_notification_type_hint",
+                "amh_notification_type_midtext",
+                "amh_notification_type_message_public",
+                "amh_notification_type_message_public_spammy"
+            ],
+            "value": "notification_type"
+        }
+    ]
+}
